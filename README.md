@@ -209,7 +209,7 @@ For the complete list, see the paper.
 
 ## **Citation**
 
-Our paper is available on arXiv. Please, use this BibTeX if you would like to cite our work.
+Our paper is available on JVCI. Please, use this BibTeX if you would like to cite our work.
 
 ```latex
 @article{ESTEVAM2025,
