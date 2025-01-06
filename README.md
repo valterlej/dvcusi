@@ -2,7 +2,7 @@
 
 ## **Summary**
 
-This repository contains an implementation of the GloVe NLP method adapted to visual features as described in the paper ''Dense Video Captioning Using Unsupervised Semantic Information'' [ArXiv link](https://arxiv.org/abs/2112.08455).
+This repository contains an implementation of the GloVe NLP method adapted to visual features as described in the paper ''Dense Video Captioning Using Unsupervised Semantic Information'' [ArXiv link](https://arxiv.org/abs/2112.08455) [JVCI link](https://www.sciencedirect.com/science/article/pii/S1047320324003419).
 
 Visual GloVe provides a dense representation encoding a co-occurrence similarity estimation with a semantic space in which short video clips with similar visual content are projected near to each other. The figure below illustrates this representation.
 
