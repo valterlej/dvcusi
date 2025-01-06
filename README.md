@@ -13,8 +13,8 @@ Visual GloVe provides a dense representation encoding a co-occurrence similarity
 We employ Visual GloVe to replace audio signal in the BMT model (see references) to learn an event proposal model for the Dense Video Captioning (DVC) task. Additionally, we concatenate Visual GloVe with i3D features and feed the MDVC model (see references) to generate captions for each learned proposals. Using this descriptor, we achieve state-of-the-art performance on DVC taking only visual features (i.e., using a single modality approach), as shown in the following tables.
 
 
-![Table2.](./images/table2.png)
-![Table4.](./images/table4.png)
+![Table2.](./images/table2.PNG)
+![Table4.](./images/table3.PNG)
 
 The code was tested on Ubuntu 20.10 with NVIDIA GPU Titan Xp. Using another software/hardware might require adapting conda environment files.
 
@@ -212,11 +212,15 @@ For the complete list, see the paper.
 Our paper is available on arXiv. Please, use this BibTeX if you would like to cite our work.
 
 ```latex
-@article{estevam:2021
-author = {Estevam, V. and Laroca, R. and Pedrini, H. and Menotti, D.},
-title = {Dense Video Captioning Using Unsupervised Semantic Information},
-journal = {CoRR},
-year = {2021},
-url = {https://arxiv.org/abs/2112.08455}
+@article{ESTEVAM2025,
+author = {Valter Estevam and Rayson Laroca and Helio Pedrini and David Menotti},
+title = {Dense video captioning using unsupervised semantic information},
+journal = {Journal of Visual Communication and Image Representation},
+volume = {107},
+pages = {104385},
+year = {2025},
+issn = {1047-3203},
+doi = {https://doi.org/10.1016/j.jvcir.2024.104385},
+url = {https://www.sciencedirect.com/science/article/pii/S1047320324003419}
 }
 ```
